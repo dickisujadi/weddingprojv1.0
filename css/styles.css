@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+.col_1 {width: 8.33%;}
+.col_2 {width: 16.66%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.33%;}
+.col_5 {width: 41.66%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.33%;}
+.col_8 {width: 66.66%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.33%;}
+.col_11 {width: 91.66%;}
+.col_12 {width: 100%;}
+
+.em1 {font-size: 1em;}
+.em1p5 {font-size: 1.5em;}
+.em2 {font-size: 2em;}
+.em2p5 {font-size: 2.5em;}
+.em3 {font-size: 3em;}
+.em3p5 {font-size: 3.5em;}
+.em4 {font-size: 4em;}
+.em4p5 {font-size: 4.5em;}
+.em5 {font-size: 5em;}
+.em5p5 {font-size: 5.5em;}
+.em6 {font-size: 6em;}
+.em6p5 {font-size: 6.5em;}
+.em7 {font-size: 7em;}
+
+.full_cover {
+    display: block;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#colour_cover {
+    background-color: black;
+    opacity: 0.25;
+    position: fixed;
+    top: 0;
+}
+
+#front_photo {
+    z-index: 1;
+}
+
+
+#screen1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/modal.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#container_wng {
+    z-index: 1;
+    background: none;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    top: 25vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#gunungan {
+    height: 20vh;
+}
+
+.halant {
+    font-family: 'Halant';
+}
+
+.gVibes {
+    font-family: 'Great Vibes';
+}
+
+.white_font {
+    color: white;
+}
+
+#buka_undangan {
+    z-index: 1;
+    background: #ffa042;
+    border-radius: 5px;
+    padding: 1.5vh 5vw 1.5vh 5vw;
+    color: white;
+    display: block;
+    margin: 1vh auto 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For desktop: */
+    .m_col_1 {width: 8.33vw;}
+    .m_col_2 {width: 16.66vw;}
+    .m_col_3 {width: 25vw;}
+    .m_col_4 {width: 33.33vw;}
+    .m_col_5 {width: 41.66vw;}
+    .m_col_6 {width: 50vw;}
+    .m_col_7 {width: 58.33vw;}
+    .m_col_8 {width: 66.66vw;}
+    .m_col_9 {width: 75vw;}
+    .m_col_10 {width: 83.33vw;}
+    .m_col_11 {width: 91.66vw;}
+    .m_col_12 {width: 100vw;}
+
+
+    
+
+    .m_em1 {font-size: 1em;}
+    .m_em1p5 {font-size: 1.5em;}
+    .m_em2 {font-size: 2em;}
+    .m_em2p5 {font-size: 2.5em;}
+    .m_em3 {font-size: 3em;}
+    .m_em3p5 {font-size: 3.5em;}
+    .m_em4 {font-size: 4em;}
+
+    .m_full_cover {
+        display: block;
+        object-fit: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+}
