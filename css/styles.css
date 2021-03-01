@@ -62,7 +62,6 @@
     z-index: 1;
     background: none;
     width: 100vw;
-    height: 50vh;
     overflow: hidden;
     position: relative;
     top: 25vh;
@@ -96,6 +95,7 @@
     color: white;
     display: block;
     margin: 1vh auto 0 auto;
+    text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
